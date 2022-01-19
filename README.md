@@ -1,1 +1,1 @@
-# thebit365-globalPayment
+# Global Payments - Realex / Power Portals implementation
