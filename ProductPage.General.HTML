@@ -1,0 +1,21 @@
+<div class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; text-align: left; min-height: 100px;">
+    <div class="container" style="display: flex; flex-wrap: wrap;">
+      <div class="col-md-12 columnBlockLayout" style="display: flex; flex-direction: column;">{% entityform name: 'Product Form' %}</div>
+    </div>
+  </div>
+  
+  <div id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModalLabel" aria-hidden="true" class="modal fade">
+      <div role="document" class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 id="paymentModalLabel" class="modal-title" style="color: rgb(196, 84, 52); text-align: center;">The 365 Bit Store</h5><br>
+                  <div class="alert alert-warning">Your payment will be processed by a Secure Payment Environment, click OK to continue.</div><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="modal-body">
+                  <table class="table">
+                      <p>You are about to make a payment of: <span id="payAmount"></span></p>
+              </div>
+              <div class="modal-footer"><button type="button" data-dismiss="modal" class="btn btn-secondary">Close</button><button type="button" id="payBtnModal" data-dismiss="modal" class="btn btn-primary" style="color: rgb(255, 255, 255); background-color: rgb(196, 84, 52); border-top-color: rgb(196, 84, 52); border-right-color: rgb(196, 84, 52); border-bottom-color: rgb(196, 84, 52); border-left-color: rgb(196, 84, 52);">OK</button></div>
+          </div>
+      </div>
+  </div>
